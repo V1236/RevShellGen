@@ -153,4 +153,5 @@ V:
 Zsh:
   - zsh-reverse-shell-linux-oneline (reverse-shell-linux-oneline)
 ```
+Change this line to match where /shellscript is on your OS (SHELLCODE_DIR = os.path.expanduser("/home/kali/VforMSF/shellscript/")
 This was made with the goal of adding it to a different project of mine (https://github.com/V1236/Remy-Red-Team-Assistant) but its useful on its own without needing any changes.
