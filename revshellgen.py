@@ -439,7 +439,6 @@ def main():
     if args.ipaddr and args.port:
         shells = {name: generate_shell(args.ipaddr, args.port, cmd) for name, cmd in shells.items()}
 
-    ## ✅ FIXED: Handling `-l` (`--list`)
     if args.list:
         print("\n[+] Available Shell Types:\n")
         grouped_shells = {}
