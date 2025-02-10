@@ -368,7 +368,7 @@ def generate_go_v_awk_dart_crystal_shells():
 
     return {name: generate_shell(ipaddr, port, cmd) for name, cmd in shells.items()}
 
-SHELLCODE_DIR = os.path.expanduser("/home/kali/VforMSF/shellscript/")
+SHELLCODE_DIR = os.path.expanduser("/home/kali/VforMSF/shellscript/") #********CHANGE THIS LINE TO WHERE /shellscript is installed on your OS***********
 
 def parse_options():
     parser = argparse.ArgumentParser(description="Reverse Shell Generator - CLI Tool")
