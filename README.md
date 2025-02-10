@@ -11,7 +11,7 @@ or
 ```
 python3 revshellgen.py -l
 ```
-Current shells (output of "-l":
+Current shells (output of "-l"):
 ```
 [+] Available Shell Types:
 
