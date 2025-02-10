@@ -11,4 +11,4 @@ python3 revshellgen.py -p (PORT) -i (IPADDRESS) -t (TYPE aka Programming Languag
 
 python3 revshellgen.py -l will list all shell names & types
 
-This was made with the goal of adding it to a different project of mine (https://github.com/V1236/Remy-Red-Team-Assistant) but its useful on its own.
+This was made with the goal of adding it to a different project of mine (https://github.com/V1236/Remy-Red-Team-Assistant) but its useful on its own without needing any changes.
